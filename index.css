@@ -1,0 +1,57 @@
+* {
+    background-color: beige;
+  
+   
+}
+.image-container {
+    float: right;
+    margin-left: 20px;
+    margin-top: -40px;
+  }
+.titulo {
+    top:30%;
+    
+}
+.container2 {
+    display: flex ;
+}
+h1 {
+    margin-top: 80px
+}
+.footer {
+    text-align: center;
+}
+
+.produtos_lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    grid-template-areas:
+        " destaque . ."
+        " destaque . .";
+    gap:20px;
+    padding: 1em;
+    
+    
+}
+.linguagem-destaque {
+    grid-area: destaque;
+    height: 420px;
+}
+.linguagem {
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: aliceblue;
+    width: 200px;
+    height: 200px;
+    
+}
+.produtos_chamada {
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: left;
+    width: 300px;
+}
